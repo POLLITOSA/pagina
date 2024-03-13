@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <header> <!-- Encabezado -->
+      <nav>
+        <a href="">
+          <img id="logo" src="./images/Logo.png" alt="Logo" srcset="">
+          <img id="mobile" src="images/MenuMobile.png" alt="Mobile Menu" srcset="">
+        </a>
+        <div class="nav-links">
+          <div class="login">
+            <a class="active"> LOGIN</a>
+            <div class="bar"></div>
+            <a>REGISTER</a>
+          </div>
+          <div class="menu">
+            <a class="active">ESP</a>
+            <a>ENG</a>
+            <div class="bar large"></div>
+            <img src="./images/Menu.svg" alt="Menu" srcset="">
+          </div>
+        </div>
+      </nav>
+    </header>
+  </main>
